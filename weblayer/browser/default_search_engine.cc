@@ -15,7 +15,7 @@ namespace weblayer {
 
 const url::Origin& GetDseOrigin() {
   static const base::NoDestructor<url::Origin> kOrigin(
-      url::Origin::Create(GURL("https://www.google.com")));
+      url::Origin::Create(GURL("https://duckduckgo.com")));
   return *kOrigin;
 }
 
